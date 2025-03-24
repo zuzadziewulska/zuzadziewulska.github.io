@@ -1,0 +1,15 @@
+h1 {
+    font-family: $title-font;
+    flex-basis: 70%;
+    font-weight: 300;
+    text-align: center;
+
+    span {
+        font-weight: 800;
+    }
+}
+
+
+.description {
+    text-align: center;
+}

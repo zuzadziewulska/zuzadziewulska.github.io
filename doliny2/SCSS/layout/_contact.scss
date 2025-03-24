@@ -1,0 +1,52 @@
+.contact {
+    background-color: $secondary-color-lighter;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    img {
+        flex-basis: 60%;
+        height: 500px;
+        object-fit: cover;
+        top: 100px;
+    }
+
+    .contact-info{
+        flex-basis: 40%;
+        text-align: center;
+        padding: 14px 20px;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    h3{
+        position: absolute;
+    }
+}
+
+.map {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background-color: $secondary-color-lighter;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    p{
+        text-align: center;
+        padding: 14px 20px;
+        flex-basis: 40%;
+    }
+
+    .google-map {
+        flex-basis: 60%;
+    }
+
+
+}

@@ -1,0 +1,57 @@
+.apartments {
+
+    .apartament-description {
+        .apartment-text-description {
+            column-gap: 20px;
+            justify-content: center;
+            align-items: center;
+
+            .description-title {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .description-info {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100px;
+                    width: 100px;
+                    border: 2px solid black;
+                    border-radius: 50%;
+                    margin-bottom: 10px;
+                    padding-top: 10px;
+                }
+            }
+
+        }
+
+        .carousel {
+            height: 700px;
+
+            .carousel-inner {
+                .carousel-item {
+                    img {
+                        height: 700px;
+                        object-fit: cover;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media all and (min-width:$large) {
+    .apartments {
+        width: 60%;
+        margin: auto;
+
+    }
+}
+
+@media all and (min-width:$medium) {
+    .apartment-text-description {
+        display: flex;
+    }
+}
