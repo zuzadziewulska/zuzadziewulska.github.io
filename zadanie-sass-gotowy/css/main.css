@@ -11637,10 +11637,10 @@ form fieldset input[name=comment], form fieldset input[name=message] {
 }
 .t108-one-page #about .about-box .icon-about {
   color: #ffffff;
-  width: 72px;
-  height: 72px;
+  width: 96px;
+  height: 96px;
   border-radius: 100%;
-  line-height: 72px;
+  line-height: 96px;
   background-color: rgb(165, 226, 0);
   margin: 0 auto 24px;
 }
